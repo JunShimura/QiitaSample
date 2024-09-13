@@ -15,6 +15,11 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
+        全タイプの処理がここにある
+        */
+        //タイプで分かれる処理
+
         if (type == CharacterType.player)
         {
             //　Playerの処理
